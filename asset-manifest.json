@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/stets-js/goit-react-hw-01-components.git/static/css/main.1b892b62.css",
-    "main.js": "/stets-js/goit-react-hw-01-components.git/static/js/main.08f3a947.js",
-    "index.html": "/stets-js/goit-react-hw-01-components.git/index.html",
-    "main.1b892b62.css.map": "/stets-js/goit-react-hw-01-components.git/static/css/main.1b892b62.css.map",
-    "main.08f3a947.js.map": "/stets-js/goit-react-hw-01-components.git/static/js/main.08f3a947.js.map"
+    "main.css": "/stets-js/goit-react-hw-01-components/static/css/main.1b892b62.css",
+    "main.js": "/stets-js/goit-react-hw-01-components/static/js/main.08f3a947.js",
+    "index.html": "/stets-js/goit-react-hw-01-components/index.html",
+    "main.1b892b62.css.map": "/stets-js/goit-react-hw-01-components/static/css/main.1b892b62.css.map",
+    "main.08f3a947.js.map": "/stets-js/goit-react-hw-01-components/static/js/main.08f3a947.js.map"
   },
   "entrypoints": [
     "static/css/main.1b892b62.css",
