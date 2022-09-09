@@ -1,0 +1,30 @@
+.statistics {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 255, 0.2);
+}
+.title {
+  text-align: center;
+  margin: 10px 0px auto;
+}
+.stat__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat__list > li:not(:last-child) {
+  border-right: solid 1px black;
+}

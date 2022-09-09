@@ -1,0 +1,14 @@
+.transaction__history {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 255, 0.2);
+}
+.transaction__head {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.transaction__item {
+  text-align: center;
+  color: black;
+}
