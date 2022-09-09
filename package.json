@@ -2,7 +2,7 @@
   "name": "goit-react-hw-01-components",
   "version": "1.1.0",
   "private": true,
-  "homepage": "https://github.com/stets-js/goit-react-hw-01-components/",
+  "homepage": "https://stets-js.github.io/goit-react-hw-01-components/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
