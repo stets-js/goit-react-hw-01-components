@@ -1,6 +1,6 @@
 import propTypes from 'prop-types';
-import { StatElem } from './StatElem'
-import css from '../css/Statistics.module.css'
+import { StatElem } from '../Statistics/StatElem'
+import css from '../Statistics/Statistics.module.css'
 
 export function Statistics({title, stats}) {
     return (
@@ -17,5 +17,9 @@ export function Statistics({title, stats}) {
 
 Statistics.propTypes = {
     title: propTypes.string.isRequired,
-    stats: propTypes.array.isRequired,
+    stats: propTypes.arrayOf(propTypes.shape({
+        id: propTypes.string.isRequired,
+        label: propTypes.string.isRequired,
+        percentage: propTypes.number.isRequired,
+    })).isRequired,
 }

@@ -1,6 +1,6 @@
 import propTypes from 'prop-types';
-import { FriendListItem } from './FriendListItem'
-import css from '../css/Friends.module.css'
+import { FriendListItem } from '../FriendList/FriendListItem'
+import css from '../FriendList/Friends.module.css'
 
 export function FriendList({friends}) {
     return (
@@ -14,5 +14,10 @@ export function FriendList({friends}) {
 }
 
 FriendList.propTypes = {
-    friends: propTypes.shape.isRequired,
+    friends: propTypes.arrayOf(propTypes.shape({
+    avatar: propTypes.string.isRequired,
+    name: propTypes.string.isRequired,
+    isOnline: propTypes.bool.isRequired,
+    id: propTypes.number.isRequired,
+    })).isRequired,
 }

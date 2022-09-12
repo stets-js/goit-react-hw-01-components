@@ -1,5 +1,5 @@
 import propTypes from 'prop-types';
-import css from '../css/Statistics.module.css'
+import css from '../Statistics/Statistics.module.css'
 
 export function StatElem({label, percentage}) {
   return (<li className={css.item}>
